@@ -34,14 +34,12 @@
   font-size: 16px;
   font-weight: 400;
   display: flex;
- 
 }
 #h1 {
   width: 506px;
   height: 105px;
   font-size: 44px;
   font-weight: 700;
- 
 }
 .btn {
   width: 208px;
@@ -49,7 +47,78 @@
   border-radius: 2px;
   background: var(--primary, #ff6464);
   color: #fff;
-  font-size: 20px; 
-  border: none;     
-  
+  font-size: 20px;
+  border: none;
+}
+
+#make {
+  background-color: #edf7fa;
+}
+
+.make {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.make-block {
+  width: 418px;
+  height: 295px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.make-block h1 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 15px;
+}
+
+.posts {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+/* .Dashboards {
+  width: 62px;
+  height: 25px;
+  border-radius: 16px;
+background: #142850;
+} */
+.num {
+  width: 62px;
+  height: 25px;
+  border-radius: 16px;
+  background: #142850;
+  text-align: center;
+  color: white;
+  margin-top: 15px;
+}
+.image {
+  display: flex;
+  margin-top: 15px;
+}
+.nam {
+  margin-top: 15px;
+}
+.nim {
+  margin-top: 15px;
+}
+.icon_footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 134px;
+}
+.icon_1 {
+  margin-right: 35px;
+}
+.rights {
+  display: flex;
+  justify-content: center;
+}
+.text_h {
+  margin: 15px;
 }
